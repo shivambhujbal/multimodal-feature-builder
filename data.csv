@@ -1,0 +1,9 @@
+product_id,description,image_file,price,category,sold
+1,"Stylish red leather jacket with zipper pockets.","images/jacket1.jpg",999,clothing,1
+2,"Portable Bluetooth speaker, waterproof design.","images/speaker1.jpg",1499,gadgets,0
+3,"Ergonomic office chair with lumbar support.","images/chair1.jpg",4999,furniture,1
+4,"4K smart LED TV with voice control.","images/tv1.jpg",25999,electronics,1
+5,"Compact DSLR camera, 24MP with lens kit.","images/camera1.jpg",19999,electronics,0
+6,"Modern wooden dining table for six.","images/table1.jpg",7999,furniture,1
+7,"Wireless noise-cancelling headphones.","images/headphones1.jpg",5999,gadgets,0
+8,"Cozy cotton king-size bedsheet set.","images/bedsheet1.jpg",1999,home_decor,1
