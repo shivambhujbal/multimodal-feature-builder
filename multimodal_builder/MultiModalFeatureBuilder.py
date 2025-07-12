@@ -16,8 +16,8 @@ class MultiModalFeatureBuilder:
         self.numeric_columns = numeric_columns or []
         self.categorical_columns = categorical_columns or []
 
-        self.text_extractor = TextFeatureExtractor()
-        self.image_extractor = ImageFeatureExtractor()
+        self.text_extractor = TextFeatureExtractor(model_name = text_model)
+        self.image_extractor = ImageFeatureExtractor(model_name= image_model)
         self.tabular_extractor = TabularFeatureExtractor()
 
     def fit_transform(self, df, target):
