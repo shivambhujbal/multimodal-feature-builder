@@ -34,6 +34,6 @@ Use it to train powerful ML models that learn from all your data simultaneously.
 
 ```bash
 pip install multimodal_feature_builder
-c
+
 
 
