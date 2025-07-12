@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+multimodal_builder/MultiModalFeatureBuilder.py
+multimodal_builder/__init__.py
+multimodal_feature_builder.egg-info/PKG-INFO
+multimodal_feature_builder.egg-info/SOURCES.txt
+multimodal_feature_builder.egg-info/dependency_links.txt
+multimodal_feature_builder.egg-info/requires.txt
+multimodal_feature_builder.egg-info/top_level.txt

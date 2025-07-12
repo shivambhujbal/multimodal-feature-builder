@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: multimodal_feature_builder
+Version: 0.1.0
+Summary: Build multi-modal feature matrices from text, images, categorical and numeric data.
+Home-page: https://github.com/shivambhujbal/multimodal-feature-builder
+Author: Shivam Bhujbal
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: transformers
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# multimodal-feature-builder
+
+
+Easily build multi-modal feature matrices from text, images, categorical, and numeric data.
+
+- Uses BERT or any HuggingFace model for text.
+- Uses ResNet/EfficientNet for images.
+- Uses Scikit-Learn pipeline for tabular data.
+
+## Installation
+
+From GitHub (latest):
+
+```bash
+pip install git+https://github.com/shivambhujbal/multimodal-feature-builder.git
