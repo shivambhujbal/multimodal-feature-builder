@@ -35,7 +35,5 @@ Use it to train powerful ML models that learn from all your data simultaneously.
 ```bash
 pip install multimodal_feature_builder
 c
-**From github:**
-'''bash
-pip install git+https://github.com/shivambhujbal/multimodal-feature-builder.git
-c
+
+
