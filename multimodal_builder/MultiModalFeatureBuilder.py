@@ -8,7 +8,9 @@ class MultiModalFeatureBuilder:
                  text_columns=None,
                  image_columns=None,
                  numeric_columns=None,
-                 categorical_columns=None):
+                 categorical_columns=None,
+                 text_model="bert-base-uncased",
+                 image_model="resnet18"):
         self.text_columns = text_columns or []
         self.image_columns = image_columns or []
         self.numeric_columns = numeric_columns or []
